@@ -20,6 +20,7 @@ class MaterialTextField: UITextField {
     }
 
     //for placeholder
+    //make a tab space on the left in a placeholder
     override func textRectForBounds(bounds: CGRect) -> CGRect {
         return CGRectInset(bounds, 10, 0)
     }

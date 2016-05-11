@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'A25326037F5269264E533023'
+               BlueprintIdentifier = '0792B32E3C1CBE2D64A8E23C'
                BlueprintName = 'Pods-aurora-showcase'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_aurora_showcase.framework'>

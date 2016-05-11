@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4098B83DF7F7A1251A7C32F0 /* Pods_aurora_showcase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FC2AFBC42414294E9301EFE /* Pods_aurora_showcase.framework */; };
+		A27DC59D1CE1F0AA004B3820 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27DC59A1CE1F0AA004B3820 /* Bolts.framework */; };
+		A27DC59E1CE1F0AA004B3820 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27DC59B1CE1F0AA004B3820 /* FBSDKCoreKit.framework */; };
+		A27DC59F1CE1F0AA004B3820 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27DC59C1CE1F0AA004B3820 /* FBSDKLoginKit.framework */; };
 		A2F71AB91CDF14D800FD5452 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F71AB81CDF14D800FD5452 /* AppDelegate.swift */; };
 		A2F71ABB1CDF14D800FD5452 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F71ABA1CDF14D800FD5452 /* ViewController.swift */; };
 		A2F71ABE1CDF14D800FD5452 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2F71ABC1CDF14D800FD5452 /* Main.storyboard */; };
@@ -26,6 +29,9 @@
 /* Begin PBXFileReference section */
 		2FC2AFBC42414294E9301EFE /* Pods_aurora_showcase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_aurora_showcase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9927718B6548B00117730DBA /* Pods-aurora-showcase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aurora-showcase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-aurora-showcase/Pods-aurora-showcase.debug.xcconfig"; sourceTree = "<group>"; };
+		A27DC59A1CE1F0AA004B3820 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		A27DC59B1CE1F0AA004B3820 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		A27DC59C1CE1F0AA004B3820 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		A2F71AB51CDF14D800FD5452 /* aurora-showcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "aurora-showcase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2F71AB81CDF14D800FD5452 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2F71ABA1CDF14D800FD5452 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +57,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4098B83DF7F7A1251A7C32F0 /* Pods_aurora_showcase.framework in Frameworks */,
+				A27DC59E1CE1F0AA004B3820 /* FBSDKCoreKit.framework in Frameworks */,
+				A27DC59F1CE1F0AA004B3820 /* FBSDKLoginKit.framework in Frameworks */,
+				A27DC59D1CE1F0AA004B3820 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +73,16 @@
 				A39FAA21C6EBD8D2F267797F /* Pods-aurora-showcase.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		A27DC5991CE1F087004B3820 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A27DC59A1CE1F0AA004B3820 /* Bolts.framework */,
+				A27DC59B1CE1F0AA004B3820 /* FBSDKCoreKit.framework */,
+				A27DC59C1CE1F0AA004B3820 /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		A2DA6AADF8D38156BC93C4AB /* Frameworks */ = {
@@ -95,13 +114,13 @@
 		A2F71AB71CDF14D800FD5452 /* aurora-showcase */ = {
 			isa = PBXGroup;
 			children = (
+				A27DC5991CE1F087004B3820 /* Frameworks */,
 				A2F71ADB1CDF53D400FD5452 /* Util */,
 				A2F71AD81CDF443E00FD5452 /* Model */,
 				A2F71AD71CDF443900FD5452 /* View */,
 				A2F71AD61CDF443000FD5452 /* Controller */,
 				A2F71ACD1CDF407B00FD5452 /* Resources */,
 				A2F71AB81CDF14D800FD5452 /* AppDelegate.swift */,
-				A2F71ABA1CDF14D800FD5452 /* ViewController.swift */,
 				A2F71ABC1CDF14D800FD5452 /* Main.storyboard */,
 				A2F71ABF1CDF14D800FD5452 /* Assets.xcassets */,
 				A2F71AC11CDF14D800FD5452 /* LaunchScreen.storyboard */,
@@ -125,6 +144,7 @@
 		A2F71AD61CDF443000FD5452 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				A2F71ABA1CDF14D800FD5452 /* ViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -402,6 +422,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/aurora-showcase",
+				);
 				INFOPLIST_FILE = "aurora-showcase/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aurora.aurora-showcase";
@@ -417,6 +442,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/aurora-showcase",
+				);
 				INFOPLIST_FILE = "aurora-showcase/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aurora.aurora-showcase";

@@ -4,6 +4,6 @@
 use_frameworks!
 
 target 'aurora-showcase' do
-pod 'Firebase', '>= 2.3.2'
+pod 'Firebase', '>= 2.5.1'
 end
 
