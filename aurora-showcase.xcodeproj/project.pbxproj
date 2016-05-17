@@ -11,6 +11,7 @@
 		A27DC59D1CE1F0AA004B3820 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27DC59A1CE1F0AA004B3820 /* Bolts.framework */; };
 		A27DC59E1CE1F0AA004B3820 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27DC59B1CE1F0AA004B3820 /* FBSDKCoreKit.framework */; };
 		A27DC59F1CE1F0AA004B3820 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27DC59C1CE1F0AA004B3820 /* FBSDKLoginKit.framework */; };
+		A27DC5A21CE2BF1E004B3820 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27DC5A11CE2BF1E004B3820 /* DataService.swift */; };
 		A2F71AB91CDF14D800FD5452 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F71AB81CDF14D800FD5452 /* AppDelegate.swift */; };
 		A2F71ABB1CDF14D800FD5452 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F71ABA1CDF14D800FD5452 /* ViewController.swift */; };
 		A2F71ABE1CDF14D800FD5452 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2F71ABC1CDF14D800FD5452 /* Main.storyboard */; };
@@ -32,6 +33,7 @@
 		A27DC59A1CE1F0AA004B3820 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		A27DC59B1CE1F0AA004B3820 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		A27DC59C1CE1F0AA004B3820 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		A27DC5A11CE2BF1E004B3820 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		A2F71AB51CDF14D800FD5452 /* aurora-showcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "aurora-showcase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2F71AB81CDF14D800FD5452 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2F71ABA1CDF14D800FD5452 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +87,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A27DC5A31CE2BF34004B3820 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A27DC5A11CE2BF1E004B3820 /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 		A2DA6AADF8D38156BC93C4AB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +124,7 @@
 		A2F71AB71CDF14D800FD5452 /* aurora-showcase */ = {
 			isa = PBXGroup;
 			children = (
+				A27DC5A31CE2BF34004B3820 /* Services */,
 				A27DC5991CE1F087004B3820 /* Frameworks */,
 				A2F71ADB1CDF53D400FD5452 /* Util */,
 				A2F71AD81CDF443E00FD5452 /* Model */,
@@ -301,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2F71AE91CDF669300FD5452 /* MaterialTextField.swift in Sources */,
+				A27DC5A21CE2BF1E004B3820 /* DataService.swift in Sources */,
 				A2F71ADA1CDF4EB700FD5452 /* MaterialView.swift in Sources */,
 				A2F71ABB1CDF14D800FD5452 /* ViewController.swift in Sources */,
 				A2F71AB91CDF14D800FD5452 /* AppDelegate.swift in Sources */,
